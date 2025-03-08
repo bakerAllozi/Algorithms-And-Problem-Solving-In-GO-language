@@ -168,7 +168,7 @@ func factorial(n int) int {
 }
 
 func main() {
-	arr := []int{10, 3, 2, 5, 7, 6, 1, 4, 8, 9}
+	arr := []int{10, 3, 2, 5, 7, 6, 4, 8, 9}
 	sortedArr := mergeSort(arr)
 	fmt.Println("Sorted Array:", sortedArr)
 
